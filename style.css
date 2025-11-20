@@ -61,3 +61,51 @@ header {
   line-height: 1em;
   margin: 0;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding: 40px 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.product-img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-info h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.price a {
+  text-decoration: none;
+  color: darkolivegreen;
+}
+
+.price a:hover {
+  color: goldenrod;
+}
