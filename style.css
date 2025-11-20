@@ -52,15 +52,35 @@ header {
   position: absolute;
   bottom: 25px;
   width: 100%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: black;
 }
 
-.hero-text h1 {
+.hero-circle {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -110px;
+}
+
+.hero-circle h1 {
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
+  text-align: center;
   line-height: 1em;
-  margin: 0;
+  margin-bottom: 100px;
+}
+
+.hero h2 {
+  max-width: 400px;
+  text-align: center;
+  font-style: italic;
 }
 
 main {
@@ -87,7 +107,7 @@ main {
 
 .product-info h3 {
   font-family: 'Playfair Display', serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
