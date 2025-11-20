@@ -13,17 +13,27 @@ html {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
-  padding-right: 5px;
+  gap: 40px;
+}
+
+nav li {
+  list-style: none;
 }
 
 nav a {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
+  border: 1px solid transparent;
+  padding: 10px;
 }
 
 nav a:hover {
   color: goldenrod;
+  border-color: goldenrod;
 }
 
 header {
