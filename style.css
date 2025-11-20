@@ -9,7 +9,26 @@ html {
   font-size: 16pt;
 }
 
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-right: 5px;
+}
 
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
 
+nav a:hover {
+  color: goldenrod;
+}
 
-
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 60px;
+  background-color: darkolivegreen;
+}
