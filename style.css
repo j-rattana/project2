@@ -104,7 +104,7 @@ main {
 .product-showcase {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px 200px;
+  grid-template-rows: minmax(150px, auto) minmax(150px, auto);
   grid-template-areas:
     "showcase1 showcase5 showcase2"
     "showcase3 showcase5 showcase4";
