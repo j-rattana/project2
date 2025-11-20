@@ -130,6 +130,17 @@ main {
   grid-area: showcase5;
 }
 
+.product-showcase img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.product-showcase img:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
 .product {
   display: flex;
   align-items: center;
