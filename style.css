@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -52,4 +53,11 @@ header {
   width: 100%;
   text-align: center;
   color: black;
+}
+
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  line-height: 1em;
+  margin: 0;
 }
