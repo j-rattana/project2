@@ -101,6 +101,35 @@ main {
   padding: 40px 20px;
 }
 
+.product-showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-template-areas:
+    "showcase1 showcase5 showcase2"
+    "showcase3 showcase5 showcase4";
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.showcase1 {
+  grid-area: showcase1;
+}
+.showcase2 {
+  grid-area: showcase2;
+}
+.showcase3 {
+  grid-area: showcase3;
+}
+.showcase4 {
+  grid-area: showcase4;
+}
+.showcase5 {
+  grid-area: showcase5;
+}
+
 .product {
   display: flex;
   align-items: center;
